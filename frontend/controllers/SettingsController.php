@@ -4,7 +4,11 @@ namespace frontend\controllers;
 
 use Yii;
 use app\models\Settings;
+<<<<<<< HEAD
 use app\models\SettingsSearch;
+=======
+use frontend\models\SettingsSearch;
+>>>>>>> bf0db649a71d03fd8ef1ff6ff277ab15f193fb7c
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
