@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD
 namespace app\models;
-=======
-namespace frontend\models;
->>>>>>> bf0db649a71d03fd8ef1ff6ff277ab15f193fb7c
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
