@@ -1,7 +1,7 @@
 <?php
 
-use yii\helpers\Html;
 use yii\grid\GridView;
+use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\ServersSearch */
@@ -12,13 +12,13 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="servers-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1><?= Html::encode($this->title); ?></h1>
 
     <p>
-        <?= Html::a('Create Servers', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Servers', ['create'], ['class' => 'btn btn-success']); ?>
     </p>
 
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php // echo $this->render('_search', ['model' => $searchModel]);?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,

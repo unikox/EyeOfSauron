@@ -15,19 +15,19 @@ use yii\widgets\ActiveForm;
         'method' => 'get',
     ]); ?>
 
-    <?= $form->field($model, 'id') ?>
+    <?= $form->field($model, 'id'); ?>
 
-    <?= $form->field($model, 'name') ?>
+    <?= $form->field($model, 'name'); ?>
 
-    <?= $form->field($model, 'protocol') ?>
+    <?= $form->field($model, 'protocol'); ?>
 
-    <?= $form->field($model, 'port') ?>
+    <?= $form->field($model, 'port'); ?>
 
-    <?= $form->field($model, 'port_range') ?>
+    <?= $form->field($model, 'port_range'); ?>
 
     <div class="form-group">
-        <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
-        <?= Html::resetButton('Reset', ['class' => 'btn btn-outline-secondary']) ?>
+        <?= Html::submitButton('Search', ['class' => 'btn btn-primary']); ?>
+        <?= Html::resetButton('Reset', ['class' => 'btn btn-outline-secondary']); ?>
     </div>
 
     <?php ActiveForm::end(); ?>

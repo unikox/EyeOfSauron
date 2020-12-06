@@ -2,18 +2,15 @@
 
 namespace app\models;
 
-use Yii;
-
 /**
  * This is the model class for table "servers".
  *
- * @property int $id
- * @property string $name
- * @property string $ip
- * @property string $os
- * @property string $location
- * @property int $services
- *
+ * @property int      $id
+ * @property string   $name
+ * @property string   $ip
+ * @property string   $os
+ * @property string   $location
+ * @property int      $services
  * @property Services $services0
  */
 class Servers extends \yii\db\ActiveRecord

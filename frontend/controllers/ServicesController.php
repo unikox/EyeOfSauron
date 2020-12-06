@@ -2,12 +2,12 @@
 
 namespace frontend\controllers;
 
-use Yii;
 use app\models\Services;
 use app\models\ServicesSearch;
+use Yii;
+use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\filters\VerbFilter;
 
 /**
  * ServicesController implements the CRUD actions for Services model.
@@ -31,6 +31,7 @@ class ServicesController extends Controller
 
     /**
      * Lists all Services models.
+     *
      * @return mixed
      */
     public function actionIndex()
@@ -46,8 +47,11 @@ class ServicesController extends Controller
 
     /**
      * Displays a single Services model.
-     * @param integer $id
+     *
+     * @param int $id
+     *
      * @return mixed
+     *
      * @throws NotFoundHttpException if the model cannot be found
      */
     public function actionView($id)
@@ -60,6 +64,7 @@ class ServicesController extends Controller
     /**
      * Creates a new Services model.
      * If creation is successful, the browser will be redirected to the 'view' page.
+     *
      * @return mixed
      */
     public function actionCreate()
@@ -78,8 +83,11 @@ class ServicesController extends Controller
     /**
      * Updates an existing Services model.
      * If update is successful, the browser will be redirected to the 'view' page.
-     * @param integer $id
+     *
+     * @param int $id
+     *
      * @return mixed
+     *
      * @throws NotFoundHttpException if the model cannot be found
      */
     public function actionUpdate($id)
@@ -98,8 +106,11 @@ class ServicesController extends Controller
     /**
      * Deletes an existing Services model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param integer $id
+     *
+     * @param int $id
+     *
      * @return mixed
+     *
      * @throws NotFoundHttpException if the model cannot be found
      */
     public function actionDelete($id)
@@ -112,8 +123,11 @@ class ServicesController extends Controller
     /**
      * Finds the Services model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param integer $id
+     *
+     * @param int $id
+     *
      * @return Services the loaded model
+     *
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
