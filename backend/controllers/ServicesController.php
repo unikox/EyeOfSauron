@@ -1,6 +1,6 @@
 <?php
 
-namespace frontend\controllers;
+namespace backend\controllers;
 
 use app\models\Services;
 use app\models\ServicesSearch;

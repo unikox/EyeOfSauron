@@ -1,6 +1,6 @@
 <?php
 
-namespace frontend\controllers;
+namespace backend\controllers;
 
 use app\models\Settings;
 use app\models\SettingsSearch;
